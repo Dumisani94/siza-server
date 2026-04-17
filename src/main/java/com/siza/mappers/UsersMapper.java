@@ -14,6 +14,11 @@ public class UsersMapper {
             usersDto.setPassword(users.getPassword());
             usersDto.setIdNumber(users.getIdNumber());
             usersDto.setCreatedAt(users.getCreatedAt());
+            usersDto.setEmailAddress(users.getEmailAddress());
+            usersDto.setCellNumber(users.getCellNumber());
+            usersDto.setStatus(users.getStatus());
+            usersDto.setServiceType(users.getServiceType());
+            usersDto.setRole(users.getRole());
         }
         return usersDto;
     }

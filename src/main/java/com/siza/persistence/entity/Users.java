@@ -1,5 +1,7 @@
 package com.siza.persistence.entity;
 
+import com.siza.enums.UserRole;
+import com.siza.enums.UserStatus;
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -18,6 +20,9 @@ public class Users {
     private String password;
     private Date createdAt;
     private String idNumber;
-
-
+    private String serviceType;
+    private UserStatus status;
+    private UserRole role;
+    private String cellNumber;
+    private String emailAddress;
 }
