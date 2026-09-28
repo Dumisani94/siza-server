@@ -25,4 +25,5 @@ public class Users {
     private UserRole role;
     private String cellNumber;
     private String emailAddress;
+    private String location;
 }
