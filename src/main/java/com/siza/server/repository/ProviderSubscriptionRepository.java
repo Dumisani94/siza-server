@@ -1,0 +1,1 @@
+package com.siza.server.repository; import com.siza.server.entity.ProviderSubscription; import org.springframework.data.jpa.repository.JpaRepository; public interface ProviderSubscriptionRepository extends JpaRepository<ProviderSubscription,Long> {}
